@@ -1,0 +1,30 @@
+topics:
+  - /control/command/control_cmd
+#  - /control/trajectory_follower/lane_departure_checker_node/debug/deviation/lateral
+#  - /control/trajectory_follower/lane_departure_checker_node/debug/deviation/yaw
+#  - /vehicle/status/actuation_status
+  - /vehicle/status/steering_status
+  - /vehicle/status/velocity_status
+  - /vehicle/status/steering_wheel_status
+  - /vehicle/status/control_mode
+#  - /tf
+#  - /tf_original
+  - /sensing/imu/imu_data
+#  - /sensing/imu/tamagawa/imu_raw
+#  - /sensing/gnss/ublox/fix_velocity
+#  - /sensing/vehicle_velocity_converter/twist_with_covariance
+#  - /pacmod/wheel_speed_rpt
+#  - /pacmod/vehicle_speed_rpt
+  - /localization/kinematic_state
+#  - /localization/pose_estimator/pose_with_covariance
+#  - /localization/twist_estimator/twist_with_covariance
+  - /localization/acceleration
+  - /control/trajectory_follower/lateral/diagnostic
+  - /control/trajectory_follower/longitudinal/diagnostic
+  - /control/trajectory_follower/control_cmd
+#  - /planning/scenario_planning/trajectory
+  - /control/trajectory_follower/lateral/predicted_trajectory
+  - /control/trajectory_follower/mpc/reference_trajectory
+#  - /diagnostic/control_evaluator/metrics
+  - /rt_system/from_can_bus
+output_csv_prefix: output
